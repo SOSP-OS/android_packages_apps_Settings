@@ -157,6 +157,18 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+         android:key="ss_category"
+         android:title="@string/ss_category_header" >
+
+        <com.android.settings.simplx.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"	
+        android:title="@string/three_finger_gesture"	
+        android:summary="@string/three_finger_gesture_summary"	
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
