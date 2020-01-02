@@ -139,36 +139,6 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
-    <PreferenceCategory
-         android:key="dtts_category"
-         android:title="@string/dtts_category_header" >
-
-        <com.android.settings.simplx.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_to_sleep_title"
-            android:summary="@string/double_tap_to_sleep_summary"
-            android:defaultValue="true" />
-
-        <com.android.settings.simplx.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_lockscreen"
-            android:title="@string/double_tap_to_sleep_lockscreen_title"
-            android:summary="@string/double_tap_to_sleep_lockscreen_summary"
-            android:defaultValue="true" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-         android:key="ss_category"
-         android:title="@string/ss_category_header" >
-
-        <com.android.settings.simplx.preferences.SystemSettingSwitchPreference
-        android:key="three_finger_gesture"	
-        android:title="@string/three_finger_gesture"	
-        android:summary="@string/three_finger_gesture_summary"	
-        android:defaultValue="false" />
-
-    </PreferenceCategory>
-
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
