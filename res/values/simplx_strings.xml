@@ -30,6 +30,14 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
+    <!-- Network traffic monitor -->
+    <string name="traffic_title">Network Traffic</string>
+    <string name="network_traffic_title">Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Color bucket</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
