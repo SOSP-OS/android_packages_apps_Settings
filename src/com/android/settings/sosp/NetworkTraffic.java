@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Simplx AOSP Project
+ * Copyright (C) 2020 SOSP Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.simplx;
+package com.android.settings.sosp;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -41,8 +41,8 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.simplx.preferences.CustomSeekBarPreference;
-import com.android.settings.simplx.preferences.SystemSettingSwitchPreference;
+import com.android.settings.sosp.preferences.CustomSeekBarPreference;
+import com.android.settings.sosp.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
@@ -96,6 +96,6 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SIMPLX_SETTINGS;
+        return MetricsProto.MetricsEvent.SOSP_SETTINGS;
     }
 }

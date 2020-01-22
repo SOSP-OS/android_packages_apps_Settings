@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.simplx.preferences;
+package com.android.settings.sosp.preferences;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;
