@@ -16,6 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Customisation -->
+    <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_accent_color_title">Accent Color</string>
+    <string name="theme_customization_font_title">Headline / Body Font</string>
+    <string name="theme_customization_icon_shape_title">Icon Shape</string>
+    
     <!-- Double Tap -->    
     <string name="dtts_category_header">Double tap to sleep</string>
     
@@ -36,5 +42,5 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>    
-    
+          
 </resources>
