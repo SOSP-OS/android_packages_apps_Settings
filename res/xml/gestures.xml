@@ -98,4 +98,16 @@
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="false" />
+        
+    <com.sospos.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:summary="@string/double_tap_sleep_gesture_summary"
+        android:defaultValue="false" />
+
+    <com.sospos.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen_title"
+        android:summary="@string/double_tap_sleep_lockscreen_summary"
+        android:defaultValue="false" />    
 </PreferenceScreen>
