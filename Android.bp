@@ -80,6 +80,7 @@ android_library {
         "net-utils-framework-common",
         "notification_flags_lib",
         "securebox",
+        "VendorSupport-preference",
 
         // Settings dependencies
         "FingerprintManagerInteractor",
